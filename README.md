@@ -79,7 +79,7 @@ git clone <fork repository address>
 ```
 * In a local repository, set new remote for project repository:
 ```bash
-git remote add upstream https://github.com/mpa-prg/exercise_2.git
+git remote add upstream https://github.com/mpa-prg/exercise_02.git
 ```
 
 ### Send files to GitHub
