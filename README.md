@@ -2,7 +2,7 @@
 
 ## Introduction to (R and) R/Bioconductor
 ### Task 1
- * Load the DNA sequence `fishes.fna.gz` using functions from the `seqinr` package and the `Biostrings` package. 
+ * Load the DNA sequence `fishes.fna.gz` using functions from the `seqinr` package and the `Biostrings` package.
 Note the differences between the created variables.
 
 ### Task 2
@@ -44,7 +44,7 @@ Note the differences between the created variables.
  * Practice working with regular expressions:
    * Create a list of names, e.g.:
       ```R
-      names_list <-  c("anna", "jana", "kamil", "norbert", "pavel", "petr", "stanislav", "zuzana")
+      names_list <- c("anna", "jana", "kamil", "norbert", "pavel", "petr", "stanislav", "zuzana")
       ```
    * Search for name `jana`:
       ```R
@@ -68,12 +68,12 @@ Note the differences between the created variables.
       ```
    * Search for names starting with `z` and ending with `a`:
       ```R
-      grep("^z.*a$", names_list, perl=TRUE)
+      grep("^z.*a$", names_list, perl = TRUE)
       ```
 
 ### Task 5
  * Load an amplicon sequencing run from 454 Junior machine `fishes.fna.gz`.
- * Get a sequence of a sample (avoid conditional statements), that is tagged by forward and reverse MID `ACGAGTGCGT`. 
+ * Get a sequence of a sample (avoid conditional statements), that is tagged by forward and reverse MID `ACGAGTGCGT`.
  * How many sequences are there in the sample?
 
 ### Task 6
@@ -92,7 +92,7 @@ Note the differences between the created variables.
  * Check the functionality again on the `fishes.fna.gz` file, the list of samples and MIDs can be found in the corresponding table `fishes_MIDs.csv`.
 
 
-#### Download files from GitHub
+## Download files from GitHub
 <details>
 <summary>Basic Git settings</summary>
 
@@ -112,9 +112,9 @@ Note the differences between the created variables.
 >
 </details>
 
-* Create a fork on your GitHub account. 
+* Create a fork on your GitHub account.
   On the GitHub page of this repository find a <kbd>Fork</kbd> button in the upper right corner.
-  
+
 * Clone forked repository from your GitHub page to your computer:
 ```bash
 git clone <fork repository address>
